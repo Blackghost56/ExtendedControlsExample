@@ -1,0 +1,3 @@
+[submodule "ExtendedControls"]
+	path = ExtendedControls
+	url = git@github.com:Blackghost56/ExtendedControls.git

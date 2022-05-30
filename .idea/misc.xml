@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/black/AndroidStudioProjects/ExtendedControlsExample/ExtendedControls/src/main/res/drawable/ic_thumb.xml" value="0.386" />
+        <entry key="..\:/Users/black/AndroidStudioProjects/ExtendedControlsExample/ExtendedControls/src/main/res/drawable/ic_thumb_2.xml" value="0.2095" />
+        <entry key="..\:/Users/black/AndroidStudioProjects/ExtendedControlsExample/ExtendedControls/src/main/res/drawable/ic_thumb_3.xml" value="0.32" />
+        <entry key="..\:/Users/black/AndroidStudioProjects/ExtendedControlsExample/app/src/main/res/drawable/ic_thumb_3.xml" value="0.32" />
         <entry key="..\:/Users/black/AndroidStudioProjects/ExtendedControlsExample/app/src/main/res/layout/activity_main.xml" value="0.5453125" />
       </map>
     </option>

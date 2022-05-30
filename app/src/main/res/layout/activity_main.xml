@@ -4,15 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/gray0_5"
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow>
+
+<!--            <com.blackghost.extendedcontrols.ArcSlider-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="300dp"-->
+
+<!--                app:maxProgress="180"-->
+<!--                />-->
+
+            <LinearLayout>
+                <com.blackghost.extendedcontrols.ArcSlider
+                    android:id="@+id/ArcSlider"
+                    android:layout_width="80dp"
+                    android:layout_height="240dp"
+                    app:valueTextSize="16sp"
+                    app:valueSuffix="°"
+                    app:thumb="@drawable/ic_thumb_2"
+                    app:maxProgress="180"
+                    app:labelWidth="10dp"
+                    />
+<!--                android:padding="10dp"-->
+<!--                app:trackWidth="5dp"-->
+<!--                app:trackColor="@color/gray1"-->
+<!--                app:thumb="@drawable/ic_thumb"-->
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+        </TableRow>
+
+        <TableRow>
+            <com.blackghost.extendedcontrolsexample.arcseekbar.ArcSeekBar
+                android:padding="10dp"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                app:maxProgress="500"
+                app:progress="50"
+                app:progressBackgroundColor="@color/black"
+                app:progressBackgroundWidth="20dp"
+                app:progressColor="@color/teal_700"
+                app:thumb1="@drawable/ic_thumb"
+                app:progressWidth="20dp"
+                app:roundEdges="true" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+        </TableRow>
+
+
+        <TableRow>
+            <com.blackghost.extendedcontrolsexample.arcseekbar.ArcSeekBar
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                app:maxProgress="500"
+                app:progress="50"
+                app:progressBackgroundColor="@color/black"
+                app:progressBackgroundWidth="20dp"
+                app:progressColor="@color/teal_700"
+                app:progressWidth="20dp"
+                app:roundEdges="true" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+        </TableRow>
+
+
+        <TableRow>
+
+            <SeekBar />
+        </TableRow>
+
+    </TableLayout>
+
+
+    <!--            android:padding="5dp"
+            android:layout_margin="5dp"-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
